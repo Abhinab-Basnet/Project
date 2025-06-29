@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/Untitled design.jpg</file>
+        <file>resources/USER LOGIN (2).jpg</file>
+        <file>resources/USER LOGIN (3).jpg</file>
+        <file>resources/envelope-solid.svg</file>
+        <file>resources/lock-solid.svg</file>
+        <file>resources/file-signature-solid.svg</file>
+        <file>resources/phone-solid.svg</file>
+        <file>resources/USER LOGIN (4).jpg</file>
+        <file>resources/USER LOGIN (5).jpg</file>
+        <file>resources/user-solid.svg</file>
+        <file>resources/right-from-bracket-solid.svg</file>
+    </qresource>
+</RCC>
