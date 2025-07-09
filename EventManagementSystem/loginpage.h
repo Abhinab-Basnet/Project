@@ -2,11 +2,15 @@
 #define LOGINPAGE_H
 
 #include <QMainWindow>
-#include<signuppage.h>
 
+// Forward declaration instead of include to avoid circular dependency
+class Signuppage;
+
+QT_BEGIN_NAMESPACE
 namespace Ui {
 class Loginpage;
 }
+QT_END_NAMESPACE
 
 class Loginpage : public QMainWindow
 {
@@ -17,11 +21,13 @@ public:
     ~Loginpage();
 
 private slots:
-    void on_pushButton_clicked();
+    void onLoginClicked();   // For btnlogin
+    void onSignupClicked();  // For pushButton
 
 private:
     Ui::Loginpage *ui;
     Signuppage *signup_page;
+    QString hashPassword(const QString &password);
 };
 
 #endif // LOGINPAGE_H

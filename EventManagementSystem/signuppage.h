@@ -15,8 +15,12 @@ public:
     explicit Signuppage(QWidget *parent = nullptr);
     ~Signuppage();
 
+private slots:
+    void onSignupClicked(); // Add this line
+
 private:
     Ui::Signuppage *ui;
+    QString hashPassword(const QString &password);
 };
 
 #endif // SIGNUPPAGE_H

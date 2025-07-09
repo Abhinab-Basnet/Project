@@ -2,8 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include<loginpage.h>
-#include<signuppage.h>
+#include <loginpage.h>
+#include <signuppage.h>
+#include <dashboard.h>
+#include <event.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -27,4 +29,5 @@ private:
     Loginpage *login_page;
     Signuppage *signup_page;
 };
+
 #endif // MAINWINDOW_H
