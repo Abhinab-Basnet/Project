@@ -1,0 +1,14 @@
+debug/dashboard.o
+debug/login.o
+debug/main.o
+debug/mainwindow.o
+debug/placemanage.o
+debug/scheduling.o
+debug/signup.o
+debug/qrc_resources.o
+debug/moc_dashboard.o
+debug/moc_login.o
+debug/moc_mainwindow.o
+debug/moc_placemanage.o
+debug/moc_scheduling.o
+debug/moc_signup.o

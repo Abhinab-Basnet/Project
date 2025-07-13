@@ -1,0 +1,14 @@
+release/dashboard.o
+release/login.o
+release/main.o
+release/mainwindow.o
+release/placemanage.o
+release/scheduling.o
+release/signup.o
+release/qrc_resources.o
+release/moc_dashboard.o
+release/moc_login.o
+release/moc_mainwindow.o
+release/moc_placemanage.o
+release/moc_scheduling.o
+release/moc_signup.o
